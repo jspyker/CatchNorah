@@ -149,7 +149,7 @@ public class CatchView extends SurfaceView implements SurfaceHolder.Callback {
 
             }
 
-            if (Utilities.distance(disp,touchPos) < ((jamesHeight + jamesWidth)/2) || justChanged)
+            if (Utilities.distance(disp,touchPos) < ((jamesHeight + jamesWidth)/2.1) || justChanged)
             {
                 justChanged = false;
                 //  playSoundEffect(SoundEffectConstants.CLICK); // FIXME: Add sound effects
